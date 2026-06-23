@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+ <link href="/css/index.css" rel="stylesheet"/>
+</head>
+<body>
+    <!-- login section  (flex-row)-->
+    <section class="loginSection">
+<!-- flex column  -->
+<div class="loginContainer">
+    <!-- 1 -->
+<div class="toggleBtn">
+    <input name="auth" id="signInBtn" type="radio">
+    <label for="signInBtn" class="signInBtn" type="submit">Sign In</label>
+    <input name="auth" id="signUpBtn" type="radio" checked>
+    <label for="signUpBtn" class="signUpBtn" type="submit">SignUp</label>
+</div>
+    <!-- 2 -->
+   <div class="signIn">
+<!-- 2.1 -->
+    <div class="loginDetail">
+    <h2>Sign In</h2>
+<input required type="email" placeholder="Email Address" />
+<input pattern="(?=.*\d)(?=.*[A-Z]).{8,}" title="Atleast 1 characters capital,Number between 0 to 9 & length should be more than 8" required type="password" placeholder="Password" />
+<button class="loginBtn" type="submit">Sign In</button>
+
+<!-- 2.2 -->
+<div class="extraInfo">
+    <p>Don't have an account? </p>
+    <label id="infoSignUp" class="extraInfoBtn" type="submit">Sign Up Here</label>
+</div>
+    </div>
+   </div>  
+
+   <!-- 3 -->
+    <div class="signUp">
+<!-- 3.1 -->
+    <div class="loginDetail">
+    <h2>Sign Up</h2>
+    <input required type="text" placeholder="Full Name" />
+<input required type="email" placeholder="Email Address" />
+<input pattern="(?=.*\d)(?=.*[A-Z]).{8,}" title="Atleast 1 characters capital,Number between 0 to 9 & length should be more than 8" required type="password" placeholder="Password" />
+<input required type="password" placeholder="Confirm Password" />
+
+<button class="loginBtn" type="submit">Sign Up</button>
+
+<!-- 3.2 -->
+<div class="extraInfo">
+    <p>Don't have an account? </p>
+    <label  id="infoSignIn" class="extraInfoBtn" type="submit">Sign In Here</label>
+</div>
+    </div>
+   </div>  
+</div>
+    </section>
+    <script type="module" src="js/login.js"></script>
+</body>
+</html>
