@@ -30,35 +30,35 @@ I am currently working on:
 - Cart data stored in **localStorage**
 - Multi-page e-commerce user flow
 
----
 ## Project Structure
 
-E COM.../
+```bash
+E-COMMERCE-MERN/
 │── css/
 │   └── index.css
 │
 │── images/
-│   └── images
+│   ├── images1.jpg
+│   ├── images2.jpg
+│   ├── images3.jpg
+│   ├── images4.jpg
+│   ├── img5.jpg
+│   ├── img6.jpg
+│   ├── img7.jpg
+│   ├── img8.jpg
+│   ├── img9.jpg
+│   ├── img10.jpg
+│   ├── img11.jpg
+│   └── img12.jpg
+│
 │── js/
-│   ├──cart.js
-│   ├──login.js
-│   ├──main.js
-│   ├──cart.js
-│   │── shop.html
-│ 
+│   ├── cart.js
+│   ├── login.js
+│   ├── main.js
+│   └── shop.js
+│
 │── index.html
 │── login.html
 │── shop.html
 │── cart.html
-│── read.md
-
-## Tech Stack
-
-- **HTML**
-- **CSS**
-- **JavaScript**
-- **Fetch API**
-- **JSON**
-- **LocalStorage**
-
----
+│── README.md
