@@ -1,12 +1,20 @@
-<img width="1891" height="837" alt="image" src="https://github.com/user-attachments/assets/83493ffb-146d-4a42-bee6-84c6119c5352" />
-Here is a live link of a website-https://ecomm-app-p-4.netlify.app/
-
 # E-Commerce Web Application
 
 A simple e-commerce web application built using **HTML, CSS, and JavaScript**.  
 This project includes core shopping flow features such as **login page, product listing, cart management, API-based product fetching, and localStorage integration** for storing cart items.
 
 The goal of this project was to strengthen my frontend development fundamentals by building a practical shopping workflow and understanding how different parts of a real web application work together.
+
+---
+
+## 🌐 Live Demo
+https://ecomm-app-p-4.netlify.app/
+
+---
+
+## 📸 Preview
+<img width="1891" height="837" alt="image" src="https://github.com/user-attachments/assets/83493ffb-146d-4a42-bee6-84c6119c5352" />
+Here is a live link of a website-https://ecomm-app-p-4.netlify.app/
 
 ---
 
