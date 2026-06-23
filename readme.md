@@ -31,18 +31,6 @@ I am currently working on:
 - Multi-page e-commerce user flow
 
 ---
-
-## Tech Stack
-
-- **HTML**
-- **CSS**
-- **JavaScript**
-- **Fetch API**
-- **JSON**
-- **LocalStorage**
-
----
-
 ## Project Structure
 
 E COM.../
@@ -63,3 +51,14 @@ E COM.../
 │── shop.html
 │── cart.html
 │── read.md
+
+## Tech Stack
+
+- **HTML**
+- **CSS**
+- **JavaScript**
+- **Fetch API**
+- **JSON**
+- **LocalStorage**
+
+---
