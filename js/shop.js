@@ -57,7 +57,10 @@ let products=[
     }
 ]
 
+let productSearch=document.querySelector("#productSearchInput");
+let selectPrice=document.querySelector("#selectPrice");
 const container=document.querySelector("#shopProContainer");
+
 
 function render(product){
     let emptyData="";
@@ -67,6 +70,7 @@ function render(product){
     container.innerHTML=emptyData;
 }
 render(products);
+
 
 function createdUi(pro){
    return `
@@ -82,6 +86,46 @@ function createdUi(pro){
 </div>
    `;
 }
+
+function applyFilters(inputs,min,max){
+
+let filterProduct=products.filter((p)=>
+
+    ( p.name.toLowerCase().includes(inputs) || 
+    p.description.toLowerCase().includes(inputs) )&&
+(p.price>=min && p.price<=max)
+)
+ render(filterProduct);
+}
+
+productSearch.addEventListener("input",()=>{
+ let inputs=productSearch.value?.trim().toLowerCase();
+ console.log(inputs)
+let min=0;
+let max=Infinity;
+if(selectPrice.value!==""){
+    [min,max]=selectPrice.value?.split("-")
+}
+applyFilters(inputs,min,max)
+})
+
+
+selectPrice.addEventListener("change",()=>{
+ let inputs=productSearch.value?.trim().toLowerCase();
+  console.log(inputs)
+let min=0;
+let max=Infinity;
+if(selectPrice.value!==""){
+    [min,max]=selectPrice.value?.split("-")
+}
+applyFilters(inputs,min,max)
+})
+   
+
+   
+
+
+
 
 // extracting the clickable product
  const addToCartBtn=document.querySelectorAll(".addToCartBtn");
