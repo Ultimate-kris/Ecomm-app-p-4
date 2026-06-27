@@ -7,6 +7,16 @@ The goal of this project was to strengthen my frontend development fundamentals 
 
 ---
 
+## 🌐 Live Demo
+https://ecomm-app-p-4.netlify.app/
+
+---
+
+## 📸 Preview
+<img width="1891" height="837" alt="image" src="https://github.com/user-attachments/assets/83493ffb-146d-4a42-bee6-84c6119c5352" />
+
+---
+
 ## Project Status
 
 This project is currently **under active development**.  
@@ -30,27 +40,14 @@ I am currently working on:
 - Cart data stored in **localStorage**
 - Multi-page e-commerce user flow
 
----
-
-## Tech Stack
-
-- **HTML**
-- **CSS**
-- **JavaScript**
-- **Fetch API**
-- **JSON**
-- **LocalStorage**
-
----
-
 ## Project Structure
 
-E COM.../
+```bash
+E-COMMERCE-MERN/
 │── css/
 │   └── index.css
 │
 │── images/
-│   ├── favicon/
 │   ├── images1.jpg
 │   ├── images2.jpg
 │   ├── images3.jpg
@@ -65,14 +62,13 @@ E COM.../
 │   └── img12.jpg
 │
 │── js/
-│   ├──cart.js
-│   ├──login.js
-│   ├──main.js
-│   ├──cart.js
-│   │── shop.html
-│ 
+│   ├── cart.js
+│   ├── login.js
+│   ├── main.js
+│   └── shop.js
+│
 │── index.html
 │── login.html
 │── shop.html
 │── cart.html
-│── read.md
+│── README.md
