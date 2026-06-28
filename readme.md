@@ -24,8 +24,6 @@ Core features such as **login flow, product listing, API-based product rendering
 
 I am currently working on:
 - **Responsive design improvements**
-- **Search functionality**
-- **Filter logic for products**
 
 ---
 
